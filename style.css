@@ -1,0 +1,92 @@
+header{
+    background-image: url(im/homepage-banner.png);
+    height: 286px;
+    color: white;
+    
+}
+.w a{
+  text-decoration: none;
+}
+nav{
+  background-color: #bbbb;
+}
+.navbar-brand img{
+  width: 50%;
+}
+.hd h2{
+  padding-top: 11%;
+}
+.w{
+  color: white;
+}
+
+
+.col{
+  transition: 1s;
+}
+.col :hover {
+  transform: scale(1.1);
+}
+  .first{
+    background-color:#212121;
+
+
+  }
+.premium h2{
+  color:white;
+}
+.premium span{
+  color: rgba(212, 182, 8, 0.909);
+}
+ 
+.ptxt{
+  color: white;
+}
+.colsize img{
+  width:16rem; 
+  height:22rem;
+  margin-left: 30%;
+  padding-top: 10%;
+}
+.prolog img{
+  width: 3rem ;
+  margin-right: 1%;
+  padding-top: 3%;
+  transition:2ms ;
+
+}
+.prolog img:hover{
+  transform: scale(1.1);
+}
+
+.griditem{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-gap: 2%;
+  width: 100%;
+  height: 55%;
+  margin-top: 9%;
+}
+.griditem p{
+  color: white;
+}
+.griditem h6{
+  color:white;
+}
+.gimg img{
+  width: 3rem;
+  border-radius: 50%;
+}
+footer{
+  background-color: rgb(76, 76, 76);
+}
+@media screen and (min-width:480px){
+  .hd h2{
+    display: none;
+  }
+}
+.ftBox{
+  width: 30%;
+  
+}
